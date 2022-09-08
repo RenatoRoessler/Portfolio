@@ -4,14 +4,25 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@hookform/resolvers": "^2.9.7",
+    "@mui/material": "^5.10.4",
+    "@types/styled-components": "^5.1.26",
+    "emailjs-com": "^3.2.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.0.8",
+    "styled-components": "^5.3.5",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "18.7.9",
@@ -20,5 +31,8 @@
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.7.4"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
